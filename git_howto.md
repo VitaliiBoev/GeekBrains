@@ -29,3 +29,7 @@ git checkout master
 ```sh
 git diff
 ```
+* ## web ссылки
+Текст [пример ссылки](HTPP\\google.com "подсказка")
+
+
