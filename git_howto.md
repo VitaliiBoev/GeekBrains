@@ -30,7 +30,7 @@ git checkout master
 git diff
 ```
 * ## web ссылки
-Текст [пример ссылки](HTPP\\google.com "подсказка")
+Текст [кот.jpg]( "кот")
 
 * ## Добавить новую ветку и посмотреть список веток
 ```sh
@@ -38,5 +38,5 @@ git branch
 ```
 * ## Переместиться в другую ветку 
 ```sh
-git checkout
+git checkout 
 ```
