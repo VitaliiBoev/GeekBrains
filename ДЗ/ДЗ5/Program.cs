@@ -32,59 +32,97 @@ else Console.Write("Такого элемента нет в массиве");*/
 //--------------------------------------------------------------------------------------
 
 // Задача 2 
-namespace ConsoleApp4
+// namespace ConsoleApp4
+// {
+//     class Programm
+//     {
+//         static void Main(string[] args)
+//         {
+//             int[,] array = CreateArray(5, 5, 10, 1);
+//             Console.WriteLine("Исходный массив:");
+//             PrintArray(array);
+//             ReplaceFirstRowWithLastRow(array);
+//             Console.WriteLine("После выполнения операций:");
+//             PrintArray(array);
+//         }
+        
+//         public static int[,] CreateArray(int Rows, int Columns, int MaxValue, int MinValue)
+//         {
+//             //Возвращаемый массив
+//             int[,] Result = new int[Rows, Columns];
+//             Random random = new Random();
+//             for (int i = 0; i < Rows; i++)
+//             {
+//                 for (int j = 0; j < Columns; j++)
+//                 {
+//                     Result[i, j]=random.Next(MinValue, MaxValue);
+//                 }
+
+//             }
+//             return Result;
+
+//         }
+//         public static void ReplaceFirstRowWithLastRow(int[,] Array)
+//         {
+//             int tmp;
+//             int Rows = Array.GetUpperBound(0)+1;
+//             for (int i = 0; i < Array.Length/Rows; i++)
+//             {
+//                 tmp = Array[0, i];
+//                 Array[0, i]=Array[Rows-1, i];
+//                 Array[Rows-1, i]=tmp;
+//             }
+
+//         }
+//         public static void PrintArray(int[,] Array)
+//         {
+//             int Rows = Array.GetUpperBound(0)+1;
+//             for (int i = 0; i < Rows; i++)
+//             {
+//                 for (int j = 0; j <Array.Length/Rows; j++)
+//                 {
+//                     Console.Write($"{Array[i, j]}\t");
+//                 }
+//                 Console.WriteLine();
+//             }
+//         }
+//     }
+// }
+// -------------------------------------------------------------------------------------
+// Задача 3
+// Задайте прямоугольный двумерный массив. 
+// Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+ namespace ConsoleApp4
 {
     class Programm
     {
         static void Main(string[] args)
         {
-            int[,] array = CreateArray(5, 5, 10, 1);
-            Console.WriteLine("Исходный массив:");
-            PrintArray(array);
-            ReplaceFirstRowWithLastRow(array);
-            Console.WriteLine("После выполнения операций:");
-            PrintArray(array);
-        }
-        
-        public static int[,] CreateArray(int Rows, int Columns, int MaxValue, int MinValue)
-        {
-            //Возвращаемый массив
-            int[,] Result = new int[Rows, Columns];
-            Random random = new Random();
-            for (int i = 0; i < Rows; i++)
+            int[,] array = {{1,2,3}, {4,5,6}, {7,8,9}, {10,11,12}};
+            int minSumRow = 0;
+            int minSum = int.MaxValue;
+            for (int i=0; i<array.GetLength(0); i++)
             {
-                for (int j = 0; j < Columns; j++)
-                {
-                    Result[i, j]=random.Next(MinValue, MaxValue);
-                }
+                int sum = 0;
+                for (int j=0; j<array.GetLength(1); j++)
+            {
+                sum += array[i,j];
 
             }
-            return Result;
+            if (sum < minSum)
+            {
+                minSum = sum;
+                minSumRow = i;
+            }
+        }
+        Console.WriteLine ("Строка с наименьшейсуммой элементов: ");
+        for (int j=0; j<array.GetLength(1); j++)
+        {
+            Console.Write(array[minSumRow, j] + " ");
 
         }
-        public static void ReplaceFirstRowWithLastRow(int[,] Array)
-        {
-            int tmp;
-            int Rows = Array.GetUpperBound(0)+1;
-            for (int i = 0; i < Array.Length/Rows; i++)
-            {
-                tmp = Array[0, i];
-                Array[0, i]=Array[Rows-1, i];
-                Array[Rows-1, i]=tmp;
-            }
+        Console.WriteLine();
 
-        }
-        public static void PrintArray(int[,] Array)
-        {
-            int Rows = Array.GetUpperBound(0)+1;
-            for (int i = 0; i < Rows; i++)
-            {
-                for (int j = 0; j <Array.Length/Rows; j++)
-                {
-                    Console.Write($"{Array[i, j]}\t");
-                }
-                Console.WriteLine();
-            }
         }
     }
 }
