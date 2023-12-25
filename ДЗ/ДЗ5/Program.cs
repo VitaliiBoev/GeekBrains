@@ -1,4 +1,4 @@
-﻿Console.Write("Введите размерность m массива: ");
+﻿/*Console.Write("Введите размерность m массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите размерность n массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
@@ -27,4 +27,64 @@ if (m2 < 1 || n2 < 1)
     Console.Write("озиции строк не могут быть отрицательными");
 else if (m2 <= m + 1 && n2 <= n + 1)
     Console.Write($"Значение элемента равно { randomArray[m2 - 1, n2 - 1]:F2} ");
-else Console.Write("Такого элемента нет в массиве");
+else Console.Write("Такого элемента нет в массиве");*/
+
+//--------------------------------------------------------------------------------------
+
+// Задача 2 
+namespace ConsoleApp4
+{
+    class Programm
+    {
+        static void Main(string[] args)
+        {
+            int[,] array = CreateArray(5, 5, 10, 1);
+            Console.WriteLine("Исходный массив:");
+            PrintArray(array);
+            ReplaceFirstRowWithLastRow(array);
+            Console.WriteLine("После выполнения операций:");
+            PrintArray(array);
+        }
+        
+        public static int[,] CreateArray(int Rows, int Columns, int MaxValue, int MinValue)
+        {
+            //Возвращаемый массив
+            int[,] Result = new int[Rows, Columns];
+            Random random = new Random();
+            for (int i = 0; i < Rows; i++)
+            {
+                for (int j = 0; j < Columns; j++)
+                {
+                    Result[i, j]=random.Next(MinValue, MaxValue);
+                }
+
+            }
+            return Result;
+
+        }
+        public static void ReplaceFirstRowWithLastRow(int[,] Array)
+        {
+            int tmp;
+            int Rows = Array.GetUpperBound(0)+1;
+            for (int i = 0; i < Array.Length/Rows; i++)
+            {
+                tmp = Array[0, i];
+                Array[0, i]=Array[Rows-1, i];
+                Array[Rows-1, i]=tmp;
+            }
+
+        }
+        public static void PrintArray(int[,] Array)
+        {
+            int Rows = Array.GetUpperBound(0)+1;
+            for (int i = 0; i < Rows; i++)
+            {
+                for (int j = 0; j <Array.Length/Rows; j++)
+                {
+                    Console.Write($"{Array[i, j]}\t");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
