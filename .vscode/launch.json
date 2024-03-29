@@ -1,0 +1,119 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "Isomorf",
+            "request": "launch",
+            "mainClass": "Isomorf",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "Isomorfe",
+            "request": "launch",
+            "mainClass": "Isomorfe",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "PassportName",
+            "request": "launch",
+            "mainClass": "PassportName",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "Printer",
+            "request": "launch",
+            "mainClass": "Printer",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "StringCompression",
+            "request": "launch",
+            "mainClass": "StringCompression",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "printPrimeNums",
+            "request": "launch",
+            "mainClass": "printPrimeNums",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "TaskMooveToEnd",
+            "request": "launch",
+            "mainClass": "TaskMooveToEnd",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "TaskTwo",
+            "request": "launch",
+            "mainClass": "TaskTwo",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "TasksOneSeminar",
+            "request": "launch",
+            "mainClass": "TasksOneSeminar",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "Seminar1",
+            "request": "launch",
+            "mainClass": "Seminar1",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "example2",
+            "request": "launch",
+            "mainClass": "example2",
+            "projectName": "Git_f20bb342"
+        },
+        {
+            "type": "java",
+            "name": "program",
+            "request": "launch",
+            "mainClass": "program",
+            "projectName": ""
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Examples/Example001_HelloConsole/bin/Debug/net8.0/Example001_HelloConsole.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Examples/Example001_HelloConsole",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

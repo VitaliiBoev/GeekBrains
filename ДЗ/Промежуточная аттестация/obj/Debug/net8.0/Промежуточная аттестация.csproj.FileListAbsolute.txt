@@ -1,0 +1,15 @@
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/Промежуточная аттестация.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/Промежуточная аттестация.AssemblyInfoInputs.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/Промежуточная аттестация.AssemblyInfo.cs
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/Промежуточная аттестация.csproj.CoreCompileInputs.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/Промежуточная аттестация.sourcelink.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/bin/Debug/net8.0/Промежуточная аттестация
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/bin/Debug/net8.0/Промежуточная аттестация.deps.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/bin/Debug/net8.0/Промежуточная аттестация.runtimeconfig.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/bin/Debug/net8.0/Промежуточная аттестация.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/bin/Debug/net8.0/Промежуточная аттестация.pdb
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/Промежуточная аттестация.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/refint/Промежуточная аттестация.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/Промежуточная аттестация.pdb
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/Промежуточная аттестация.genruntimeconfig.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Промежуточная аттестация/obj/Debug/net8.0/ref/Промежуточная аттестация.dll

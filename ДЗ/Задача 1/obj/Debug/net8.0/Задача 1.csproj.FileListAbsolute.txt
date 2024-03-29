@@ -1,0 +1,15 @@
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/bin/Debug/net8.0/Задача 1
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/bin/Debug/net8.0/Задача 1.deps.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/bin/Debug/net8.0/Задача 1.runtimeconfig.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/bin/Debug/net8.0/Задача 1.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/bin/Debug/net8.0/Задача 1.pdb
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/Задача 1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/Задача 1.AssemblyInfoInputs.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/Задача 1.AssemblyInfo.cs
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/Задача 1.csproj.CoreCompileInputs.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/Задача 1.sourcelink.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/Задача 1.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/refint/Задача 1.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/Задача 1.pdb
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/Задача 1.genruntimeconfig.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/Задача 1/obj/Debug/net8.0/ref/Задача 1.dll

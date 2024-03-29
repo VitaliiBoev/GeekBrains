@@ -1,0 +1,15 @@
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ДЗ5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ДЗ5.AssemblyInfoInputs.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ДЗ5.AssemblyInfo.cs
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ДЗ5.csproj.CoreCompileInputs.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ДЗ5.sourcelink.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/bin/Debug/net8.0/ДЗ5
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/bin/Debug/net8.0/ДЗ5.deps.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/bin/Debug/net8.0/ДЗ5.runtimeconfig.json
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/bin/Debug/net8.0/ДЗ5.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/bin/Debug/net8.0/ДЗ5.pdb
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ДЗ5.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/refint/ДЗ5.dll
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ДЗ5.pdb
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ДЗ5.genruntimeconfig.cache
+/Users/vitalijboev/Downloads/GeekBrains/Git/ДЗ/ДЗ5/obj/Debug/net8.0/ref/ДЗ5.dll
